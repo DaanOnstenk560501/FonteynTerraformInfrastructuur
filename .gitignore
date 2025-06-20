@@ -1,0 +1,11 @@
+# Terraform-specifieke ignore-regels
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+.terraformrc
+override.tf
+override.tf.json
+*tfplan*
+.vscode/
